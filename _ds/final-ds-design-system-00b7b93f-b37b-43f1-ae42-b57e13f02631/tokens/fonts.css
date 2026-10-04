@@ -1,0 +1,23 @@
+/* Webfonts.
+ * Space Grotesk, IBM Plex Sans and Inter are the file's real faces (Google Fonts).
+ * Instrument Sans is self-hosted from the user-supplied variable TTFs in /fonts.
+ * Averta (product UI) is still a commercial face with no file — Figtree stands in.
+ * See readme.md > Typography substitutions. */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;500;600&family=Figtree:wght@400;500;600;700&display=swap');
+@font-face{font-family:'Instrument Sans';src:url('../fonts/InstrumentSans-Variable.ttf') format('truetype-variations');font-weight:400 700;font-stretch:75% 100%;font-style:normal;font-display:swap}
+@font-face{font-family:'Instrument Sans';src:url('../fonts/InstrumentSans-Italic-Variable.ttf') format('truetype-variations');font-weight:400 700;font-stretch:75% 100%;font-style:italic;font-display:swap}
+:root{
+--font-averta:'Figtree','Averta',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+--font-space-grotesk:'Space Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+--font-ibm-plex-sans:'IBM Plex Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+--font-inter:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+--font-instrument-sans:'Instrument Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+/* macOS system UI stack (window-chrome mock only) — no webfont, by design. */
+--font-system-ui:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+/* semantic */
+--font-product:var(--font-averta);
+--font-display:var(--font-space-grotesk);
+--font-body:var(--font-ibm-plex-sans);
+--font-ui:var(--font-inter);
+--font-brand:var(--font-instrument-sans);
+}

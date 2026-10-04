@@ -1,0 +1,27 @@
+/* Type scale — sizes exactly as authored in the file (13px, 17.65px, 47.5px are real). */
+:root{
+--text-9:9px;
+--text-10:10px;
+--text-11:11px;
+--text-12:12px;
+--text-13:13px;
+--text-14:14px;
+--text-15:15px;
+--text-16:16px;
+--text-17-66:17.65625px;
+--text-18:18px;
+--text-20:20px;
+--text-24:24px;
+--text-26:26px;
+--text-30:30px;
+--text-32:32px;
+--text-47-5:47.5px;
+--weight-regular:400;
+--weight-medium:500;
+--weight-semibold:600;
+--weight-bold:700;
+--weight-black:900;
+--leading-flat:100%;
+--leading-snug:1.2;
+--leading-body:1.45;
+}

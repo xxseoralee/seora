@@ -1,0 +1,12 @@
+/* The source file is a static Figma document: it carries no prototype
+ * transitions, no easing curves and no motion specs. These are the house
+ * defaults for recreations — keep motion minimal, opacity/colour only. */
+:root{
+--duration-fast:120ms; /* @kind other */
+--duration-base:180ms; /* @kind other */
+--duration-slow:280ms; /* @kind other */
+--ease-standard:cubic-bezier(0.2,0,0.2,1); /* @kind other */
+--hover-opacity:0.8; /* @kind other */
+--disabled-opacity:0.4; /* @kind other */
+--dim-opacity:0.6; /* @kind other */
+}

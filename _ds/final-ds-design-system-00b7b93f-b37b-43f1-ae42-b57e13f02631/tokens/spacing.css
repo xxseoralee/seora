@@ -1,0 +1,23 @@
+/* Auto-layout gaps and paddings observed in the file. */
+:root{
+--space-2:2px;
+--space-4:4px;
+--space-6:6px;
+--space-8:8px;
+--space-10:10px;
+--space-12:12px;
+--space-16:16px;
+--space-20:20px;
+--space-21:21px;
+--space-24:24px;
+--space-32:32px;
+--space-40:40px;
+--space-56:56px;
+--space-60:60px;
+/* layout */
+--page-max:1260px;
+--page-gutter-desktop:60px;
+--card-gap:24px;
+--control-height-desktop:48px;
+--control-height-compact:34px;
+}

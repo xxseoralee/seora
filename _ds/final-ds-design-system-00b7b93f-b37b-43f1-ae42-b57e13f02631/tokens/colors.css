@@ -1,0 +1,100 @@
+/* Every value transcribed from the Figma file. Two palettes coexist:
+ * PRODUCT (travel booking UI, Averta) and PORTFOLIO (case-study site). */
+:root{
+/* --- product neutrals --- */
+--white:#FFFFFF;
+--black:#000000;
+--ink-900:#121212;
+--ink-800:#1F262D;
+--ink-700:#262626;
+--ink-600:#383838;
+--grey-600:#646464;
+--grey-500:#757575;
+--grey-450:#8F9296;
+--grey-400:#999999;
+--grey-300:#BFBFBF;
+--grey-200:#E3E3E3;
+--grey-150:#EBEBEB;
+--grey-100:#F3F3F3;
+--grey-050:#F6F6F6;
+/* --- product blue (primary) --- */
+--blue-900:#002DA1;
+--blue-700:#024DDF;
+--blue-600:rgba(2,108,223,0.55);
+--blue-500:#1C8EF8;
+--blue-300:#6397FE;
+--blue-200:#AFCAFE;
+--blue-050:#EBF2FF;
+/* --- product semantic --- */
+--green-700:#048851;
+--green-600:#01A465;
+--green-400:#62C554;
+--red-600:#EB0000;
+--red-400:#ED6A5E;
+--amber-500:#FFB932;
+--amber-400:#F6BE4F;
+--coral-500:#EB5545;
+--yellow-highlight:#FBFF2C;
+--purple-700:#904EBA;
+--purple-500:#A733FF;
+--purple-400:#C56BFF;
+/* --- portfolio palette --- */
+--navy-700:#34465E;
+--navy-800:#243245;
+--paper-050:#F5F5F5;
+--paper-ink:#2E2E2E;
+--paper-muted:#686868;
+--paper-line:#D0D0D0;
+/* --- transparencies used as scrims/shadows --- */
+--alpha-black-10:rgba(0,0,0,0.10);
+--alpha-black-12:rgba(0,0,0,0.12);
+--alpha-black-15:rgba(0,0,0,0.15);
+--alpha-black-25:rgba(0,0,0,0.25);
+--alpha-black-50:rgba(0,0,0,0.50);
+--alpha-black-60:rgba(0,0,0,0.60);
+--alpha-ink-65:rgba(38,38,38,0.65);
+
+/* ===== semantic aliases — product surface is the default ===== */
+--text-primary:var(--ink-900);
+--text-secondary:var(--grey-600);
+--text-tertiary:var(--grey-400);
+--text-inverse:var(--white);
+--text-link:var(--blue-700);
+--text-error:var(--red-600);
+--text-success:var(--green-600);
+--surface-page:var(--white);
+--surface-card:var(--white);
+--surface-sunken:var(--grey-050);
+--surface-muted:var(--grey-100);
+--surface-selected:var(--blue-050);
+--surface-inverse:var(--ink-900);
+--border-default:var(--grey-200);
+--border-strong:var(--grey-400);
+--border-input:var(--grey-450);
+--border-focus:var(--blue-700);
+--border-error:var(--red-600);
+--action-primary:var(--ink-900);
+--action-primary-text:var(--white);
+--action-secondary:var(--blue-700);
+--action-disabled:var(--grey-200);
+--action-disabled-text:var(--grey-400);
+--focus-ring:var(--blue-500);
+}
+
+/* ===== portfolio surface ===== */
+[data-theme="portfolio"]{
+--text-primary:var(--paper-ink);
+--text-secondary:var(--paper-muted);
+--text-tertiary:var(--paper-muted);
+--text-link:var(--navy-700);
+--surface-page:var(--paper-050);
+--surface-card:var(--paper-050);
+--surface-sunken:var(--paper-050);
+--surface-muted:var(--paper-050);
+--surface-inverse:var(--navy-700);
+--border-default:var(--paper-line);
+--border-strong:var(--paper-line);
+--action-primary:var(--navy-700);
+--action-primary-text:var(--white);
+--action-secondary:var(--navy-800);
+}

@@ -1,0 +1,17 @@
+/* Borders in this file are almost always inset rings, not CSS borders. */
+:root{
+--ring-default:inset 0 0 0 1px var(--grey-200);
+--ring-muted:inset 0 0 0 1px var(--grey-150);
+--ring-strong:inset 0 0 0 1px var(--grey-400);
+--ring-strong-2:inset 0 0 0 2px var(--grey-400);
+--ring-input:inset 0 0 0 1px var(--grey-450);
+--ring-line:inset 0 0 0 1px var(--paper-line);
+--ring-focus:inset 0 0 0 1px var(--blue-700);
+--ring-brand:inset 0 0 0 1.188px var(--navy-700);
+--ring-black:inset 0 0 0 1.188px var(--black);
+--shadow-raised:0px 2px 8px 0px var(--alpha-black-10);
+--shadow-pressed:0px 2px 6px 0px var(--alpha-black-25);
+--shadow-card:inset 0 0 0 1px var(--paper-line),0px 4px 8px 0px var(--alpha-black-12);
+--shadow-cursor:-0.2px 1px 1.5px 0px var(--alpha-black-50);
+--shadow-overlay:0px 1px 40px 10px var(--alpha-black-15);
+}
